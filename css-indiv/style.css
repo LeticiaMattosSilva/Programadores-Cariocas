@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Astloch&family=Berkshire+Swash&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kulim+Park:wght@200&display=swap');
+
+body {
+    font-family: 'Kulim Park', sans-serif;
+    font-size: 30px;
+    background-image: linear-gradient(to right, #21272c, #2C5159)
+
+}
+
+
+main {
+    background-color: #819FA6;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px black;
+    width: 900px;
+    padding: 10px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Astloch', cursive;
+    font-size: 150px; 
+    background-color: #2C5159;
+    height: 300px;
+    width: 850px;
+    
+    border: 10px double #21272c;
+    border-radius: 20px;
+
+    margin: auto;
+    margin-top: 40px;
+
+    padding-top: 70px;
+}
+
+.sub-titulo {
+    text-align: center;
+    font-size: 55px;
+}
+
+h2 {
+    font-family: 'Astloch', cursive;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+a {
+    color: #21272c;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    display: block;
+    margin: auto;
+    border: 10px solid #21272c;
+    border-radius: 20px;
+}
+
+#botao {
+   
+    text-align: center;
+    background-color: #21272c;
+    width: 150px;
+    color: white;
+}
